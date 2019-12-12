@@ -90,12 +90,12 @@ async function getAPIData(url){
     let name = document.createElement('p')
     let types = document.createElement('p')
     let pokeNum = getPokeNumber(data.id)
-    let pokeType = getPokeTypes(data.id)
+    //let pokeType = getPokeTypes(data.id)
     name.textContent = `${data.name[0].toUpperCase()}${data.name.slice(1)}`
 
     pokeBack.appendChild(name)
-    pokeBack.appendChild(pokeNum)
-    pokeBack.appendChild(pokeType)
+    //pokeBack.appendChild(pokeNum)
+    //pokeBack.appendChild(pokeType)
   }
 
 
