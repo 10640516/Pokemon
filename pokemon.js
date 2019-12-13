@@ -106,9 +106,9 @@ async function getAPIData(url){
   </div>
 </div> */}
   function getPokeNumber(id){
-    if(id < 10) return '00${id}'
+    if(id < 10) return '00' + id
     if(id > 9 && id < 100){
-      return '0${id}'
+      return '0' + id
     }
     else return id
   }

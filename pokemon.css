@@ -8,9 +8,9 @@ h1{
     font-family: sans-serif;
     font-size: 40px;
 }
-main {
+#main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-gap: 2rem;
     width: 100%;
     max-width: 1280px;
@@ -77,8 +77,13 @@ p {
 
 #newPokemon {
     width: 120px;
-    height: 90px;
-    background-color: seashell;
+    height: 30px;
+    background-color: blue;
     font-size: 1.5rem;
     margin: 15px;
+    border-radius: 30px;
+    border-color: black;
+    border: 2px;
+    padding: 10px;
+    color:white;
 }
